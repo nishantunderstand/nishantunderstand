@@ -16,6 +16,7 @@ jobs:
         uses: xu-cheng/latex-action@v3
         with:
           root_file: resume.tex
+          args: -jobname=Nishant_Raj_Resume
 
       - name: Copy files to deploy folder
         run: |
