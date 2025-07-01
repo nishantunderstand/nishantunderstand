@@ -1,0 +1,23 @@
+{
+  "name": "Jake Smith",
+  "title": "Full Stack Developer",
+  "email": "jake@example.com",
+  "location": "San Francisco, CA",
+  "summary": "Experienced developer in MERN stack and DevOps.",
+  "skills": ["JavaScript", "React", "Node.js", "Docker", "AWS"],
+  "experience": [
+    {
+      "company": "TechCorp",
+      "role": "Senior Developer",
+      "duration": "2021 - Present",
+      "description": "Led the front-end team, built scalable React apps."
+    }
+  ],
+  "education": [
+    {
+      "school": "MIT",
+      "degree": "B.S. in Computer Science",
+      "year": "2017"
+    }
+  ]
+}
