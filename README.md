@@ -53,7 +53,7 @@ I’m a results-driven **Java Backend Developer** with **4+ years** of experienc
 
 [![Resume](https://img.shields.io/badge/View%20My%20Resume-PDF-informational?style=flat&logo=adobeacrobatreader&logoColor=white&color=E60023)](https://nishantunderstand.github.io/nishantunderstand/)
 
-🌐 Hosted on GitHub Pages. View it anytime without downloading.
+🌐 Hosted on GitHub Pages. View it anytime.
 
 ---
 
