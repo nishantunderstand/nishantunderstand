@@ -17,11 +17,12 @@ jobs:
         uses: xu-cheng/latex-action@v3
         with:
           root_file: resume.tex
+          args: -jobname=Nishant_Raj_Resume
 
       - name: Commit PDF back to repo
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
-          git add resume.pdf
-          git commit -m "Auto-compile resume.pdf from resume.tex" || echo "No changes to commit"
+          git add Nishant_Raj_Resume.pdf
+          git commit -m "Auto-compile Nishant_Raj_Resume.pdf from resume.tex" || echo "No changes to commit"
           git push
