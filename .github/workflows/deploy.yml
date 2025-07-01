@@ -16,7 +16,14 @@ jobs:
         uses: xu-cheng/latex-action@v3
         with:
           root_file: resume.tex
-          args: -jobname=Nishant_Raj_Resume
+          args: -jobname=Nishant_Raj_Resume  # Output file: Nishant_Raj_Resume.pdf
+
+      - name: Debug file locations
+        run: |
+          echo "Listing current directory"
+          ls -lh
+          echo "Looking for PDF"
+          find . -name '*.pdf'
 
       - name: Copy files to deploy folder
         run: |
