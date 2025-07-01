@@ -2,51 +2,10 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Jake Resume</title>
-  <link rel="stylesheet" href="style.css" />
+  <title>My Resume</title>
 </head>
 <body>
-  <div class="container">
-    <h1 id="name">Jake Smith</h1>
-    <h2 id="title">Full Stack Developer</h2>
-    <p id="summary">Experienced developer in MERN stack and DevOps.</p>
-    <h3>Skills</h3>
-    <ul id="skills"></ul>
-    <h3>Experience</h3>
-    <div id="experience"></div>
-    <h3>Education</h3>
-    <div id="education"></div>
-  </div>
-  <script>
-    fetch('resume.json')
-      .then(res => res.json())
-      .then(data => {
-        document.getElementById('name').textContent = data.name;
-        document.getElementById('title').textContent = data.title;
-        document.getElementById('summary').textContent = data.summary;
-        
-        const skillsList = document.getElementById('skills');
-        data.skills.forEach(skill => {
-          const li = document.createElement('li');
-          li.textContent = skill;
-          skillsList.appendChild(li);
-        });
-
-        const exp = document.getElementById('experience');
-        data.experience.forEach(job => {
-          const div = document.createElement('div');
-          div.innerHTML = `<strong>${job.role}</strong> at ${job.company} (${job.duration})<br>${job.description}`;
-          exp.appendChild(div);
-        });
-
-        const edu = document.getElementById('education');
-        data.education.forEach(school => {
-          const div = document.createElement('div');
-          div.innerHTML = `<strong>${school.degree}</strong>, ${school.school} (${school.year})`;
-          edu.appendChild(div);
-        });
-      });
-  </script>
+  <h1>Resume Viewer</h1>
+  <embed src="resume.pdf" type="application/pdf" width="100%" height="1000px" />
 </body>
 </html>
