@@ -1,0 +1,27 @@
+name: Compile LaTeX Resume
+
+on:
+  push:
+    paths:
+      - 'resume.tex'
+
+jobs:
+  build-pdf:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Compile LaTeX to PDF
+        uses: xu-cheng/latex-action@v3
+        with:
+          root_file: resume.tex
+
+      - name: Commit PDF back to repo
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@github.com"
+          git add resume.pdf
+          git commit -m "Auto-compile resume.pdf from resume.tex" || echo "No changes to commit"
+          git push
