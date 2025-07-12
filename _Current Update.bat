@@ -18,6 +18,4 @@ cd /d "%repoLocation%"
 	"%gitPath%" push
 
 echo !!! End !!!
-echo This window will close in 2 seconds...
-timeout /t 2 >nul
 exit

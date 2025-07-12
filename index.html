@@ -5,66 +5,81 @@
   <title>Nishant Raj - Resume</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <style>
-    body {
+    /* Reset & Base Styles */
+    * {
+      box-sizing: border-box;
       margin: 0;
+      padding: 0;
+    }
+
+    body {
       font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
       background-color: #f4f4f4;
       color: #222;
+      line-height: 1.6;
+      padding: 10px;
     }
 
     .container {
-      max-width: 900px;
-      margin: 40px auto;
-      padding: 20px;
+      max-width: 100%;
+      margin: auto;
       background-color: #fff;
-      box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
       border-radius: 8px;
+      padding: 20px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     }
 
     h1 {
+      font-size: 24px;
       text-align: center;
       margin-bottom: 10px;
-      font-size: 32px;
       color: #333;
     }
 
-    p.subtitle {
+    .subtitle {
+      font-size: 16px;
+      color: #555;
       text-align: center;
-      color: #666;
-      margin-top: 0;
-      margin-bottom: 30px;
-      font-size: 18px;
+      margin-bottom: 20px;
     }
 
     .pdf-container {
       width: 100%;
-      height: 1000px;
+      height: 600px;
       border: none;
+      margin-bottom: 20px;
+    }
+
+    .mobile-warning {
+      text-align: center;
+      font-size: 16px;
+      color: #d9534f;
+      margin-top: 20px;
+      display: none;
     }
 
     .download-link {
       display: block;
       text-align: center;
-      margin-top: 20px;
-      font-size: 16px;
+      margin-top: 15px;
       padding: 12px 20px;
       background-color: #007BFF;
-      color: white !important;
+      color: #fff !important;
       text-decoration: none;
+      font-size: 16px;
       border-radius: 5px;
+      transition: background-color 0.3s ease;
     }
 
-    .mobile-warning {
-      text-align: center;
-      font-size: 18px;
-      color: #d9534f;
-      margin-top: 20px;
+    .download-link:hover {
+      background-color: #0056b3;
     }
 
-    @media (max-width: 768px) {
+    @media (max-width: 600px) {
       .pdf-container {
         display: none;
       }
+
       .mobile-warning {
         display: block;
       }
@@ -76,13 +91,17 @@
     <h1>Nishant Raj</h1>
     <p class="subtitle">Java Backend Developer - Resume</p>
 
-    <!-- Embedded Resume PDF -->
-    <iframe src="Nishant_Raj_Resume.pdf" class="pdf-container" title="Resume PDF"></iframe>
+    <!-- Embedded Resume using Google Docs Viewer -->
+    <iframe 
+      src="https://docs.google.com/gview?url=https%3A%2F%2Fnishantunderstand.github.io%2Fnishantunderstand%2FNishant_Raj_Resume.pdf&embedded=true" 
+      class="pdf-container" 
+      title="Nishant Raj Resume">
+    </iframe>
 
     <!-- Mobile Warning -->
     <div class="mobile-warning">
-      ⚠️ Your device doesn't support embedded PDFs.<br/>
-      Please download or view this resume on a desktop.
+      ⚠️ PDF preview not supported on mobile.<br/>
+      Tap the button below to download or view on desktop.
     </div>
 
     <!-- Download Link -->
@@ -90,5 +109,19 @@
       ⬇️ Download Resume (PDF)
     </a>
   </div>
+
+  <!-- Optional: JavaScript for better mobile detection -->
+  <script>
+    window.onload = function () {
+      const isMobile = /Mobi|Android/i.test(navigator.userAgent);
+      const iframe = document.querySelector('.pdf-container');
+      const warning = document.querySelector('.mobile-warning');
+
+      if (isMobile) {
+        iframe.style.display = 'none';
+        warning.style.display = 'block';
+      }
+    };
+  </script>
 </body>
 </html>
