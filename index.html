@@ -42,6 +42,13 @@
       border: none;
     }
 
+    .download-link {
+      display: block;
+      text-align: center;
+      margin-top: 20px;
+      font-size: 16px;
+    }
+
     @media (max-width: 768px) {
       .pdf-container {
         height: 600px;
@@ -54,7 +61,13 @@
     <h1>Nishant Raj</h1>
     <p class="subtitle">Java Backend Developer - Resume</p>
 
+    <!-- Embedded Resume PDF -->
     <iframe src="Nishant_Raj_Resume.pdf" class="pdf-container"></iframe>
+
+    <!-- Optional: Download Link -->
+    <a href="Nishant_Raj_Resume.pdf" download class="download-link">
+      ⬇️ Download Resume (PDF)
+    </a>
   </div>
 </body>
 </html>
