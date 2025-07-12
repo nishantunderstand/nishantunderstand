@@ -18,10 +18,15 @@ jobs:
         with:
           root_file: resume.tex
 
+      - name: List files for debugging
+        run: |
+          echo "Listing files after LaTeX build:"
+          ls -l
+
       - name: Copy PDF to docs
         run: |
           mkdir -p docs
-          cp resume.pdf docs/
+          cp resume.pdf docs/ || cp ./resume.pdf docs/ || echo "resume.pdf not found!"
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
