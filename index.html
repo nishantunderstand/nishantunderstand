@@ -47,11 +47,26 @@
       text-align: center;
       margin-top: 20px;
       font-size: 16px;
+      padding: 12px 20px;
+      background-color: #007BFF;
+      color: white !important;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+
+    .mobile-warning {
+      text-align: center;
+      font-size: 18px;
+      color: #d9534f;
+      margin-top: 20px;
     }
 
     @media (max-width: 768px) {
       .pdf-container {
-        height: 600px;
+        display: none;
+      }
+      .mobile-warning {
+        display: block;
       }
     }
   </style>
@@ -62,9 +77,15 @@
     <p class="subtitle">Java Backend Developer - Resume</p>
 
     <!-- Embedded Resume PDF -->
-    <iframe src="Nishant_Raj_Resume.pdf" class="pdf-container"></iframe>
+    <iframe src="Nishant_Raj_Resume.pdf" class="pdf-container" title="Resume PDF"></iframe>
 
-    <!-- Optional: Download Link -->
+    <!-- Mobile Warning -->
+    <div class="mobile-warning">
+      ⚠️ Your device doesn't support embedded PDFs.<br/>
+      Please download or view this resume on a desktop.
+    </div>
+
+    <!-- Download Link -->
     <a href="Nishant_Raj_Resume.pdf" download class="download-link">
       ⬇️ Download Resume (PDF)
     </a>
