@@ -1,0 +1,30 @@
+name: Auto Publish Resume
+
+on:
+  schedule:
+    # Runs every 7 days
+    - cron: '0 0 */7 * *'
+  workflow_dispatch:
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up LaTeX
+        uses: dante-ev/latex-action@v2
+        with:
+          root_file: resume.tex
+
+      - name: Copy PDF to docs
+        run: |
+          mkdir -p docs
+          cp resume.pdf docs/
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./docs
