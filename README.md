@@ -67,7 +67,7 @@ I’m a results-driven **Java Backend Developer** with **4+ years** of experienc
 
 ### 🧰 Tools & Technologies
 
-<p align="left">
+<p align="center">
   <!-- Languages -->
   <a href="https://www.java.com" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="Java" width="40" height="40"/></a>
   <a href="https://www.w3schools.com/sql/" target="_blank"><img src="https://www.svgrepo.com/show/331760/sql-database-generic.svg" alt="SQL" width="40" height="40"/></a>
@@ -76,20 +76,21 @@ I’m a results-driven **Java Backend Developer** with **4+ years** of experienc
   <!-- Frameworks & Libraries -->
   <a href="https://spring.io/" target="_blank"><img src="https://www.vectorlogo.zone/logos/springio/springio-icon.svg" alt="Spring Boot" width="40" height="40"/></a>
   <a href="https://hibernate.org/" target="_blank"><img src="https://www.vectorlogo.zone/logos/hibernate/hibernate-icon.svg" alt="Hibernate" width="40" height="40"/></a>
-  <a href="https://junit.org/" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/8/82/JUnit_5_Banner.png" alt="JUnit" width="40" height="40"/></a>
+  <a href="https://junit.org/" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/junit/junit-plain.svg" alt="JUnit" width="40" height="40"/></a>
   <a href="https://site.mockito.org/" target="_blank"><img src="https://avatars.githubusercontent.com/u/7554960?s=200&v=4" alt="Mockito" width="40" height="40"/></a>
-  <a href="https://logging.apache.org/log4j/2.x/" target="_blank"><img src="https://seeklogo.com/images/A/apache-log4j-logo-C6CA282363-seeklogo.com.png" alt="Log4j" width="40" height="40"/></a>
+  <a href="https://logging.apache.org/log4j/" target="_blank"><img src="https://seeklogo.com/images/A/apache-log4j-logo-C6CA282363-seeklogo.com.png" alt="Log4j" width="40" height="40"/></a>
 
-  <!-- Microservices & Messaging -->
+  <!-- Microservices & Architecture -->
   <a href="https://jwt.io/" target="_blank"><img src="https://avatars.githubusercontent.com/u/82391485?s=280&v=4" alt="JWT" width="40" height="40"/></a>
   <a href="https://kafka.apache.org/" target="_blank"><img src="https://www.vectorlogo.zone/logos/apache_kafka/apache_kafka-icon.svg" alt="Kafka" width="40" height="40"/></a>
+  <a href="https://github.com/brettwooldridge/HikariCP" target="_blank"><img src="https://avatars.githubusercontent.com/u/8415736?s=200&v=4" alt="HikariCP" width="40" height="40"/></a>
 
   <!-- Databases -->
   <a href="https://www.mysql.com/" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="MySQL" width="40" height="40"/></a>
   <a href="https://www.oracle.com/database/" target="_blank"><img src="https://www.vectorlogo.zone/logos/oracle/oracle-icon.svg" alt="Oracle DB" width="40" height="40"/></a>
   <a href="https://www.ibm.com/products/db2" target="_blank"><img src="https://www.ibm.com/favicon.ico" alt="IBM DB2" width="40" height="40"/></a>
 
-  <!-- Tools -->
+  <!-- Tools & Platforms -->
   <a href="https://git-scm.com/" target="_blank"><img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="Git" width="40" height="40"/></a>
   <a href="https://tortoisegit.org/" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/en/e/e3/TortoiseGit_icon.png" alt="TortoiseGit" width="40" height="40"/></a>
   <a href="https://maven.apache.org/" target="_blank"><img src="https://www.vectorlogo.zone/logos/apache_maven/apache_maven-icon.svg" alt="Maven" width="40" height="40"/></a>
@@ -105,7 +106,7 @@ I’m a results-driven **Java Backend Developer** with **4+ years** of experienc
   <a href="https://www.eclipse.org/" target="_blank"><img src="https://www.vectorlogo.zone/logos/eclipse/eclipse-icon.svg" alt="Eclipse" width="40" height="40"/></a>
   <a href="https://code.visualstudio.com/" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg" alt="VS Code" width="40" height="40"/></a>
 
-  <!-- Cloud -->
+  <!-- Cloud & Monitoring -->
   <a href="https://cloud.google.com/" target="_blank"><img src="https://www.vectorlogo.zone/logos/cloudgoogle/cloudgoogle-icon.svg" alt="Google Cloud" width="40" height="40"/></a>
   <a href="https://azure.microsoft.com/en-in/get-started/" target="_blank"><img src="https://www.vectorlogo.zone/logos/microsoft_azure/microsoft_azure-icon.svg" alt="Microsoft Azure" width="40" height="40"/></a>
 </p>
