@@ -2,6 +2,8 @@
 
 set "repoLocation=C:\Users\User\eclipse-workspace\nishantunderstand"
 
+echo !!! Start Here !!!
+
 set "gitPath=C:\Program Files\Git\cmd\git.exe"
 cd /d "%repoLocation%"
 	if not exist "%repoLocation%\.git" (
@@ -16,6 +18,6 @@ cd /d "%repoLocation%"
 echo !!! End !!!
 
 
-echo This window will close in 15 seconds...
-timeout /t 15 >nul
+echo This window will close in 2 seconds...
+timeout /t 2 >nul
 exit
