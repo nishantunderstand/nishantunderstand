@@ -5,19 +5,34 @@
   <title>Nishant Raj - Resume</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <style>
+    :root {
+      --bg-color: #f4f4f4;
+      --text-color: #222;
+      --container-bg: #fff;
+      --link-color: #0366d6;
+    }
+
+    body.dark-mode {
+      --bg-color: #1e1e1e;
+      --text-color: #f9f9f9;
+      --container-bg: #2d2d2d;
+      --link-color: #58a6ff;
+    }
+
     body {
       margin: 0;
       font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-      background-color: #f4f4f4;
-      color: #222;
+      background-color: var(--bg-color);
+      color: var(--text-color);
+      transition: background-color 0.3s, color 0.3s;
     }
 
     .container {
       max-width: 900px;
       margin: 40px auto;
       padding: 20px;
-      background-color: #fff;
-      box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+      background-color: var(--container-bg);
+      box-shadow: 0 0 12px rgba(0, 0, 0, 0.2);
       border-radius: 8px;
     }
 
@@ -25,15 +40,28 @@
       text-align: center;
       margin-bottom: 10px;
       font-size: 32px;
-      color: #333;
+      color: var(--text-color);
     }
 
     p.subtitle {
       text-align: center;
-      color: #666;
+      color: #888;
       margin-top: 0;
       margin-bottom: 30px;
       font-size: 18px;
+    }
+
+    .theme-toggle {
+      display: block;
+      text-align: center;
+      margin: 10px auto 30px;
+      padding: 8px 16px;
+      background: var(--link-color);
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 14px;
     }
 
     .pdf-container {
@@ -43,10 +71,7 @@
     }
 
     .download-link {
-      display: block;
-      text-align: center;
-      margin-top: 20px;
-      font-size: 16px;
+      display: none; /* Hides the download link */
     }
 
     @media (max-width: 768px) {
@@ -61,13 +86,22 @@
     <h1>Nishant Raj</h1>
     <p class="subtitle">Java Backend Developer - Resume</p>
 
+    <!-- Theme Toggle -->
+    <button class="theme-toggle" onclick="toggleTheme()">Toggle Dark Mode</button>
+
     <!-- Embedded Resume PDF -->
     <iframe src="Nishant_Raj_Resume.pdf" class="pdf-container"></iframe>
 
-    <!-- Optional: Download Link -->
+    <!-- Optional: Hidden Download Link -->
     <a href="Nishant_Raj_Resume.pdf" download class="download-link">
       ⬇️ Download Resume (PDF)
     </a>
   </div>
+
+  <script>
+    function toggleTheme() {
+      document.body.classList.toggle("dark-mode");
+    }
+  </script>
 </body>
 </html>
