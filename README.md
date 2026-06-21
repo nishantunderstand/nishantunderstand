@@ -79,34 +79,11 @@ I’m a results-driven **Java Backend Developer** with **4+ years** of experienc
 
 ### LeetCode
 
-
-<div align="center">
-
-<h2 align="center">LeetCode Info</h2>
-
+<div align="center"> 
+<h2 align="center">Leetcode Info</h2>  
 <p align="center">
-
-  <a href="https://leetcode.com/u/nishantunderstand/" target="_blank">
-    <img src="https://leetcode.com/medal/?showImg=0&id=10413184&isLevel=false"
-         alt="LeetCode Medal 1"
-         height="200"
-         width="200"/>
-  </a>
-
-  <a href="https://leetcode.com/u/nishantunderstand/" target="_blank">
-    <img src="https://leetcode.com/medal/?showImg=0&id=6612545&isLevel=false"
-         alt="LeetCode Medal 2"
-         height="200"
-         width="200"/>
-  </a>
-
-  <a href="https://leetcode.com/u/nishantunderstand/" target="_blank">
-    <img src="https://leetcode.com/medal/?showImg=0&id=8978272&isLevel=false"
-         alt="LeetCode Medal 3"
-         height="200"
-         width="200"/>
-  </a>
-
+  <a href="https://leetcode.com/u/nishantunderstand/" target="_blank"><img align="center" src="https://assets.leetcode.com/static_assets/others/lg25100.png" alt="100 Days Badge 2025" height="200" width="200" /></a>
+  <a href="https://leetcode.com/u/nishantunderstand/" target="_blank"><img align="center" src="https://assets.leetcode.com/static_assets/others/50_1080_1080.png" alt="50 Days Badge 2026" height="200" width="200" /></a>
+  <a href="https://leetcode.com/u/nishantunderstand/" target="_blank"><img align="center" src="https://assets.leetcode.com/static_assets/others/lg2550.png" alt="50 Days Badge 2025" height="200" width="200" /></a>
 </p>
-
 </div>
