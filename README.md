@@ -74,3 +74,39 @@ I’m a results-driven **Java Backend Developer** with **4+ years** of experienc
   <a href="https://www.mysql.com/" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="MySQL" width="40" height="40"/></a>
   <a href="https://www.w3.org/html/" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="HTML5" width="40" height="40"/></a>
 </p>
+
+
+
+### LeetCode
+
+
+<div align="center">
+
+<h2 align="center">LeetCode Info</h2>
+
+<p align="center">
+
+  <a href="https://leetcode.com/u/nishantunderstand/" target="_blank">
+    <img src="https://leetcode.com/medal/?showImg=0&id=10413184&isLevel=false"
+         alt="LeetCode Medal 1"
+         height="200"
+         width="200"/>
+  </a>
+
+  <a href="https://leetcode.com/u/nishantunderstand/" target="_blank">
+    <img src="https://leetcode.com/medal/?showImg=0&id=6612545&isLevel=false"
+         alt="LeetCode Medal 2"
+         height="200"
+         width="200"/>
+  </a>
+
+  <a href="https://leetcode.com/u/nishantunderstand/" target="_blank">
+    <img src="https://leetcode.com/medal/?showImg=0&id=8978272&isLevel=false"
+         alt="LeetCode Medal 3"
+         height="200"
+         width="200"/>
+  </a>
+
+</p>
+
+</div>
