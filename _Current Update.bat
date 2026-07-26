@@ -3,8 +3,6 @@
 set "repoLocation=C:\Users\User\eclipse-workspace\nishantunderstand"
 
 
-
-
 echo !!! Start Here !!!
 set "gitPath=C:\Program Files\Git\cmd\git.exe"
 cd /d "%repoLocation%"
