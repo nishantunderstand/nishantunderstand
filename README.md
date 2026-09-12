@@ -87,3 +87,23 @@ I’m a results-driven **Java Backend Developer** with **4+ years** of experienc
   <a href="https://leetcode.com/u/nishantunderstand/" target="_blank"><img align="center" src="https://assets.leetcode.com/static_assets/others/lg2550.png" alt="50 Days Badge 2025" height="200" width="200" /></a>
 </p>
 </div>
+
+
+## 📚 StudyWithMe Series
+
+A collection of repositories for practicing and learning **Java, Spring Boot, SQL, NoSQL, JavaScript, HLD, and LLD**.
+
+| Repository                                                                                            | Visibility | Technology      |
+| ----------------------------------------------------------------------------------------------------- | ---------- | --------------- |
+| [studywithme_java8](https://github.com/nishantunderstand/studywithme_java8)                           | 🌐 Public  | Java            |
+| [studywithme_java](https://github.com/nishantunderstand/studywithme_java)                             | 🌐 Public | Java            |
+| [studywithme_NoSQL](https://github.com/nishantunderstand/studywithme_NoSQL)                           | 🌐 Public  | JavaScript      |
+| [studywithme_SQL](https://github.com/nishantunderstand/studywithme_SQL)                               | 🌐 Public  | SQL / Batchfile |
+| [studywithme_SpringBoot](https://github.com/nishantunderstand/studywithme_SpringBoot)                 | 🌐 Public  | Java            |
+| [studywithme_HLD](https://github.com/nishantunderstand/studywithme_HLD)                               | 🌐 Public  | HLD             |
+| [studywithme_LLD](https://github.com/nishantunderstand/studywithme_LLD)                               | 🌐 Public  | Java            |
+| [studywithme_JavaScript](https://github.com/nishantunderstand/studywithme_JavaScript)                 | 🌐 Public  | JavaScript      |
+
+### 🔗 All StudyWithMe Repositories
+
+[View all repositories →](https://github.com/nishantunderstand?tab=repositories&q=study&type=&language=&sort=)
